@@ -33,10 +33,10 @@ public class CountingValleys {
         int seaLevel = 0;
 
         for (int i = 0; i < s.length(); i++) {
-            if(s.charAt(i) == 'U') ++seaLevel;
+            if (s.charAt(i) == 'U') ++seaLevel;
             else if (s.charAt(i) == 'D') seaLevel--;
 
-            if(seaLevel == 0 && s.charAt(i)=='U') numberOfValleys++;
+            if (seaLevel == 0 && s.charAt(i) == 'U') numberOfValleys++;
         }
         return numberOfValleys;
     }
