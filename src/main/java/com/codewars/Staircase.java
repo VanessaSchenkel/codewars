@@ -2,9 +2,6 @@ package com.codewars;
 
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.List;
-
 //Consider a staircase of size :
 //        #
 //        ##
@@ -27,10 +24,10 @@ public class Staircase {
 
     static void staircase(int n) {
         StringBuilder sr = new StringBuilder();
-        int space = n-1;
+        int space = n - 1;
         int hashtag = 1;
 
-        while(space >= 0) {
+        while (space >= 0) {
             sr.append(" ".repeat(space));
             sr.append("#".repeat(hashtag));
             sr.append("\n");

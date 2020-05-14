@@ -7,7 +7,7 @@ public class MiniMaxSumTest {
     @Test
     public void deveImprimir10e14() throws Exception {
         //esperado: 10 14
-        int[] arr = {1,2,3,4,5};
+        int[] arr = {1, 2, 3, 4, 5};
         MiniMaxSum.miniMaxSum(arr);
     }
 

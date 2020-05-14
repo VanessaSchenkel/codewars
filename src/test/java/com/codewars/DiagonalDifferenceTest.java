@@ -11,9 +11,9 @@ public class DiagonalDifferenceTest {
 
     @Test
     public void deveRetornarDiferençaAbsolutaDe15() {
-        List<Integer> a = Arrays.asList(11,2,4);
-        List<Integer> b = Arrays.asList(4,5,6);
-        List<Integer> c = Arrays.asList(10,8,-12);
+        List<Integer> a = Arrays.asList(11, 2, 4);
+        List<Integer> b = Arrays.asList(4, 5, 6);
+        List<Integer> c = Arrays.asList(10, 8, -12);
 
         List<List<Integer>> arr = new ArrayList<>();
         arr.add(a);
@@ -26,9 +26,9 @@ public class DiagonalDifferenceTest {
 
     @Test
     public void deveRetornarDiferençaAbsolutaDe2() {
-        List<Integer> a = Arrays.asList(1,2,3);
-        List<Integer> b = Arrays.asList(4,5,6);
-        List<Integer> c = Arrays.asList(9,8,9);
+        List<Integer> a = Arrays.asList(1, 2, 3);
+        List<Integer> b = Arrays.asList(4, 5, 6);
+        List<Integer> c = Arrays.asList(9, 8, 9);
 
         List<List<Integer>> arr = new ArrayList<>();
         arr.add(a);

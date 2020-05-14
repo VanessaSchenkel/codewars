@@ -37,9 +37,9 @@ public class PlusMinus {
             else zero++;
         }
 
-        double positiveFraction = positive/size;
-        double negativeFraction = negative/size;
-        double zeroFraction = zero/size;
+        double positiveFraction = positive / size;
+        double negativeFraction = negative / size;
+        double zeroFraction = zero / size;
 
         System.out.printf("%.6f%n%.6f%n%.6f%n", positiveFraction, negativeFraction, zeroFraction);
 

@@ -3,9 +3,6 @@ package com.codewars;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.IntStream;
 
 //Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the
 //five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
@@ -28,7 +25,7 @@ public class MiniMaxSum {
         long sumMax = 0;
         long sumMin = 0;
 
-        if (!min.equals(max)){
+        if (!min.equals(max)) {
             for (int value : arr) {
                 if (value != max) {
                     sumMin += value;
@@ -38,12 +35,12 @@ public class MiniMaxSum {
                 }
             }
         } else {
-            for (int i = 0; i < arr.length-1; i++) {
-                sumMax+=arr[i];
-                sumMin+=arr[i];
+            for (int i = 0; i < arr.length - 1; i++) {
+                sumMax += arr[i];
+                sumMin += arr[i];
             }
         }
 
-        System.out.println(sumMin + " " +sumMax);
+        System.out.println(sumMin + " " + sumMax);
     }
 }

@@ -17,14 +17,14 @@ public class DiagonalDifference {
         int difference = 0;
         int sumA = 0;
         int sumB = 0;
-        int count = arr.size()-1;
+        int count = arr.size() - 1;
 
         for (int i = 0; i < arr.size(); i++) {
-            sumA+= arr.get(i).get(i);
+            sumA += arr.get(i).get(i);
         }
 
         for (int i = 0; i < arr.size(); i++) {
-            sumB+= arr.get(i).get(count);
+            sumB += arr.get(i).get(count);
             count--;
         }
 

@@ -4,14 +4,13 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class CompareTheTripletsTest {
 
     @Test
     public void deveRetornarUmaVitóriaParaCada() {
-        List<Integer> alice = new ArrayList<>(List.of(5, 6 , 7));
+        List<Integer> alice = new ArrayList<>(List.of(5, 6, 7));
         List<Integer> bob = new ArrayList<>(List.of(3, 6, 10));
 
         List<Integer> score = new ArrayList<>(List.of(1, 1));

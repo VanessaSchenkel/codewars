@@ -2,7 +2,6 @@ package com.codewars;
 
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -31,10 +30,10 @@ public class CompareTheTriplets {
         int bobsScore = 0;
 
 
-        for (int i = 0; i < a.size(); i++){
-            if (a.get(i) > b.get(i)){
+        for (int i = 0; i < a.size(); i++) {
+            if (a.get(i) > b.get(i)) {
                 aliceScore++;
-            } else if (a.get(i) < b.get(i)){
+            } else if (a.get(i) < b.get(i)) {
                 bobsScore++;
             }
         }
