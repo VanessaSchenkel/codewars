@@ -28,8 +28,8 @@ public class Staircase {
         int hashtag = 1;
 
         while (space >= 0) {
-            sr.append(" ".repeat(space));
-            sr.append("#".repeat(hashtag));
+            //sr.append(" ".repeat(space));
+            //sr.append("#".repeat(hashtag));
             sr.append("\n");
             hashtag++;
             space--;
