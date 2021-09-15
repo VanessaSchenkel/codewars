@@ -13,8 +13,8 @@ public class Phone {
 
         for (int i = 0; i < phoneXfeatures.size(); i++) {
             for (int j = 0; j < phoneYfeatures.size(); j++) {
-                if (!phoneXfeatures.contains(phoneYfeatures.get(j))){
-                    if (!features.contains(phoneYfeatures.get(j))){
+                if (!phoneXfeatures.contains(phoneYfeatures.get(j))) {
+                    if (!features.contains(phoneYfeatures.get(j))) {
                         features.add(phoneYfeatures.get(j));
 
                     }

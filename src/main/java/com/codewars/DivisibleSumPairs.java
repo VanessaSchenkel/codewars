@@ -26,7 +26,7 @@ public class DivisibleSumPairs {
 
         for (int i = 0; i < ar.length - 1; i++) {
             for (int j = 0; j < ar.length; j++) {
-                if (((ar[i] + ar[j]) % k == 0) && i < j){
+                if (((ar[i] + ar[j]) % k == 0) && i < j) {
                     total++;
                 }
             }

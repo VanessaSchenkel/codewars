@@ -53,6 +53,6 @@ public class NewYearChaos {
             }
         }
         //System.out.println(count);
-        return "Swaps: "+count;
+        return "Swaps: " + count;
     }
 }

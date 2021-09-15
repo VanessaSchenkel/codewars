@@ -2,7 +2,8 @@ package com.codewars;
 
 import org.springframework.stereotype.Component;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
 
 //Alex works at a clothing store. There is a large pile of socks that must be paired by color for sale. Given an array
 // of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
@@ -22,7 +23,7 @@ public class SalesByMatch {
         Set<Integer> colors = new HashSet<>();
 
         for (int i = 0; i < n; i++) {
-            if (!colors.contains(ar[i])){
+            if (!colors.contains(ar[i])) {
                 colors.add(ar[i]);
             } else {
                 parOfSocks++;

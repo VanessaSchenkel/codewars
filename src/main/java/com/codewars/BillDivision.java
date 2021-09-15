@@ -26,13 +26,12 @@ public class BillDivision {
         for (Integer price : bill) {
             total += price;
         }
-        int valuePerPerson = total/2;
+        int valuePerPerson = total / 2;
 
         if (valuePerPerson == b) {
             //System.out.println("Bon Appetit");
             return "Bon Appetit";
-        }
-        else return "Valor: "+(b - valuePerPerson);
+        } else return "Valor: " + (b - valuePerPerson);
         //else System.out.println(b - valuePerPerson);
 
     }

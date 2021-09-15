@@ -2,9 +2,6 @@ package com.codewars;
 
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
-
 //We define a magic square to be an n x n matrix of distinct positive integers from 1 to n2 where the sum of any row, column, or
 // diagonal of length n is always equal to the same number: the magic constant.
 
@@ -25,14 +22,14 @@ public class FormingAMagicSquare {
     static int formingMagicSquare(int[][] s) {
         // 3 x 3 magic square
         //possible magicsquare is 8
-        int[][] magic0 = {{8,1,6}, {3,5,7}, {4,9,2}};
-        int[][] magic1 = {{6,1,8}, {7,5,3}, {2,9,4}};
-        int[][] magic2 = {{4,9,2}, {3,5,7}, {8,1,6}};
-        int[][] magic3 = {{2,9,4}, {7,5,3}, {6,1,8}};
-        int[][] magic4 = {{8,3,4}, {1,5,9}, {6,7,2}};
-        int[][] magic5 = {{4,3,8}, {9,5,1}, {2,7,6}};
-        int[][] magic6 = {{6,7,2}, {1,5,9}, {8,3,4}};
-        int[][] magic7 = {{2,7,6}, {9,5,1}, {4,3,8}};
+        int[][] magic0 = {{8, 1, 6}, {3, 5, 7}, {4, 9, 2}};
+        int[][] magic1 = {{6, 1, 8}, {7, 5, 3}, {2, 9, 4}};
+        int[][] magic2 = {{4, 9, 2}, {3, 5, 7}, {8, 1, 6}};
+        int[][] magic3 = {{2, 9, 4}, {7, 5, 3}, {6, 1, 8}};
+        int[][] magic4 = {{8, 3, 4}, {1, 5, 9}, {6, 7, 2}};
+        int[][] magic5 = {{4, 3, 8}, {9, 5, 1}, {2, 7, 6}};
+        int[][] magic6 = {{6, 7, 2}, {1, 5, 9}, {8, 3, 4}};
+        int[][] magic7 = {{2, 7, 6}, {9, 5, 1}, {4, 3, 8}};
 
         int[] sum = new int[8];
 

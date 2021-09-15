@@ -20,23 +20,23 @@ public class ElectronicsShop {
 
 
     static int getMoneySpent(int[] keyboards, int[] drives, int b) {
-       int price = -1;
-       OptionalInt priceKeyboard = Arrays.stream(keyboards).min();
-       OptionalInt priceDrive = Arrays.stream(drives).min();
+        int price = -1;
+        OptionalInt priceKeyboard = Arrays.stream(keyboards).min();
+        OptionalInt priceDrive = Arrays.stream(drives).min();
 
-       if((priceKeyboard.getAsInt() + priceDrive.getAsInt()) > b) return price;
+        if ((priceKeyboard.getAsInt() + priceDrive.getAsInt()) > b) return price;
 
         price = priceKeyboard.getAsInt() + priceDrive.getAsInt();
 
-       for (int i = 0; i < keyboards.length; i++) {
-           for (int j = 0; j < drives.length; j++) {
-               if (keyboards[i] + drives[j] > price && keyboards[i] + drives[j] <= b){
-                   price = keyboards[i] + drives[j];
-               }
-           }
+        for (int i = 0; i < keyboards.length; i++) {
+            for (int j = 0; j < drives.length; j++) {
+                if (keyboards[i] + drives[j] > price && keyboards[i] + drives[j] <= b) {
+                    price = keyboards[i] + drives[j];
+                }
+            }
         }
 
-       return price;
+        return price;
 
     }
 }

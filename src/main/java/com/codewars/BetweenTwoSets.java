@@ -2,8 +2,6 @@ package com.codewars;
 
 import org.springframework.stereotype.Component;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 //There will be two arrays of integers. Determine all integers that satisfy the following two conditions:

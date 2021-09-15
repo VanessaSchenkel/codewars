@@ -2,9 +2,6 @@ package com.codewars;
 
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.List;
-
 //A jail has a number of prisoners and a number of treats to pass out to them. Their jailer decides the fairest way to
 // divide the treats is to seat the prisoners around a circular table in sequentially numbered chairs. A chair number
 // will be drawn from a hat. Beginning with the prisoner in that chair, one candy will be handed to each prisoner

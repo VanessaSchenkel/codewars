@@ -2,8 +2,6 @@ package com.codewars;
 
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 //Given a chocolate bar, two children, Lily and Ron, are determining how to share it. Each of the squares has an integer on it.
@@ -35,12 +33,12 @@ public class SubarrayDivision {
         }
 
         for (int i = 0; i < s.size() - m + 1; i++) {
-            if (sum == d){
+            if (sum == d) {
                 ways++;
             }
 
-            if (i + m < s.size()){
-                sum = sum - s.get(i) + s.get(i+m);
+            if (i + m < s.size()) {
+                sum = sum - s.get(i) + s.get(i + m);
             }
         }
 

@@ -22,9 +22,9 @@ public class TheHurdleRace {
         List<Integer> heights = Arrays.stream(height).boxed().collect(Collectors.toList());
         Collections.sort(heights);
 
-        if (k >= heights.get(heights.size()-1)) return 0;
+        if (k >= heights.get(heights.size() - 1)) return 0;
 
-        return heights.get(heights.size()-1) - k;
+        return heights.get(heights.size() - 1) - k;
 
     }
 }

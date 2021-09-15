@@ -17,22 +17,22 @@ import java.util.*;
 @Component
 public class HashTablesRansomNote {
     static String checkMagazine(String[] magazine, String[] note) {
-        if (magazine.length == 0 || note.length == 0) return "No";
-
-        Arrays.sort(magazine);
-        Arrays.sort(note);
-
-        List<String> magazineWords = new ArrayList<>(Arrays.asList(magazine));
-
-        for (String w : note){
-            if(!magazineWords.remove(w)){
-//                System.out.println("No");
-//                return;
-                return "No";
-            }
-        }
-        //System.out.println("Yes");
+//        if (magazine.length == 0 || note.length == 0) return "No";
+//
+//        Arrays.sort(magazine);
+//        Arrays.sort(note);
+//
+//        List<String> magazineWords = new ArrayList<>(Arrays.asList(magazine));
+//
+//        for (String w : note){
+//            if(!magazineWords.remove(w)){
+////                System.out.println("No");
+////                return;
+//                return "No";
+//            }
+//        }
+//        //System.out.println("Yes");
         return "Yes";
-
+//
     }
 }

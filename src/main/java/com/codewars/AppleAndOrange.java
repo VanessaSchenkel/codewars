@@ -27,7 +27,7 @@ import java.util.List;
 @Component
 public class AppleAndOrange {
 
-    static List<String> countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges){
+    static List<String> countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
         List<String> retorno = new ArrayList<>();
         int quantApples = 0;
         int quantOranges = 0;
@@ -42,8 +42,8 @@ public class AppleAndOrange {
             if (orangePosition <= t && orangePosition >= s) quantOranges++;
         }
 
-        retorno.add("Maçãs: "+quantApples);
-        retorno.add("Laranjas: "+quantOranges);
+        retorno.add("Maçãs: " + quantApples);
+        retorno.add("Laranjas: " + quantOranges);
 
         //System.out.println(quantApples);
         //System.out.println(quantOranges);

@@ -3,7 +3,6 @@ package com.codewars;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 //A left rotation operation on an array shifts each of the array's elements  unit to the left. For example, if 2 left

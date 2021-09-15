@@ -35,7 +35,7 @@ public class SortingBubbleSort {
             for (int j = 0; j < a.length - 1; j++) {
                 if (a[j] > a[j + 1]) {
                     int biggest = a[j];
-                    int smallest = a[j+1];
+                    int smallest = a[j + 1];
                     a[j] = smallest;
                     a[j + 1] = biggest;
                     swaps++;
@@ -47,9 +47,9 @@ public class SortingBubbleSort {
 //        System.out.println("First Element: "+a[0]);
 //        System.out.println("Last Element: "+a[a.length-1]);
 
-        phrases.add("Array is sorted in "+swaps+" swaps");
-        phrases.add("First Element: "+a[0]);
-        phrases.add("Last Element: "+a[a.length-1]);
+        phrases.add("Array is sorted in " + swaps + " swaps");
+        phrases.add("First Element: " + a[0]);
+        phrases.add("Last Element: " + a[a.length - 1]);
 
         return phrases;
     }

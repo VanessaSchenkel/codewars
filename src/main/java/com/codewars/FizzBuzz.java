@@ -1,7 +1,5 @@
 package com.codewars;
 
-import java.util.stream.IntStream;
-
 public class FizzBuzz {
     public static void fizzBuzz(int n) {
 

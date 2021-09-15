@@ -24,10 +24,11 @@ public class MarkAndToys {
         Collections.sort(pricesList);
 
         for (int i = 0; i < pricesList.size(); i++) {
-            if (totalPrice + pricesList.get(i) <= k){
+            if (totalPrice + pricesList.get(i) <= k) {
                 totalPrice += pricesList.get(i);
                 maxItens++;
-            } if (totalPrice == k){
+            }
+            if (totalPrice == k) {
                 return maxItens;
             }
         }
